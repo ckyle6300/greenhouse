@@ -11,7 +11,7 @@ export default function ThemeProvider({ children }) {
     <ThemeContext.Provider
       value={{
         themeName,
-        setThemeName
+        setThemeName,
       }}
     >
       {children}
